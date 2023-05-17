@@ -1,0 +1,15 @@
+.new {
+    font-size: 8rem;
+    margin-top: 100px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        border: 5px solid blue;
+        bottom: 50px;
+        margin: 0 auto;
+        padding: 0 8rem;
+        z-index: -10;
+        box-shadow: -6px -6px 12px hsla(0, 1%, 26%, 0.15), 6px 6px 15px rgba(53, 105, 136, 0.72);
+    }
+}

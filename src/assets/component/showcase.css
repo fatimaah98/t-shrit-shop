@@ -1,0 +1,28 @@
+.showcase {
+  padding: 15px;
+  background-color: white;
+  transition: 0.5s all;
+  border-radius: 20px;
+  background-color: #cac6c681;
+}
+
+.showcase:hover {
+  /*  box-shadow: rgba(146, 145, 145, 0.24) 0px 3px 8px;*/
+  box-shadow: -6px -6px 12px hsla(0, 0%, 99%, 0.15),
+    6px 6px 15px rgba(157, 160, 161, 0.72);
+}
+@media (max-with: 650px) {
+  .flex-col-us {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+.caption {
+  transform: translateY(150%);
+  opacity: 0;
+  transition: 0.7s all;
+}
+.showcase:hover .caption {
+  opacity: 1;
+  transform: translateY(-1%);
+}

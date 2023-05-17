@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAA,CACJ,SAAS,CAAE,gBAAgB,CAC9B",
+    "sources": [
+        "../MenuBar.scss"
+    ],
+    "names": [],
+    "file": "MenuBar.css"
+}
